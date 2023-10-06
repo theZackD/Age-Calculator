@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 86%);
+}
+
+#arrow {
+    background-color: #854DFF;
+    border-radius: 50%;
+    padding: 20px;
+    float: right;
+    margin-right: 5%;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+
+#arrow:hover{
+    background-color: #7233fa;
+}
+
+#arrow:active {
+    background-color: black;
+}
+
+.FullCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 80%;
+    width: 840px;
+    border-radius: 20px 20px 200px 20px;
+    padding-bottom: 2%;
+    background-color: white;
+}
+
+
+.Inputs {
+    display: flex;
+    gap: 32px;
+    color: hsl(0, 1%, 44%);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.Label {
+    margin-left: 10px;
+}
+
+.Labelred {
+    color: red;
+}
+
+input {
+    width: 160px;
+    height: 72px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: hsl(0, 0%, 86%) solid 1px;
+    color: hsl(0, 1%, 44%);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+
+.errorinput {
+    border: red solid 1px;
+}
+
+input:focus{
+    color: black;
+    border: #854DFF solid 1px;
+}
+
+
+
+.LOGO {
+    position: relative;
+    align-items: end;
+    width: 100%;
+}
+
+hr {
+    position: absolute;
+    width: 92%;
+    margin-left: 5%;
+    z-index: 2;
+    top: 50%;
+    color: hsl(0, 0%, 86%);
+    font-size: 1px;
+}
+
+span {
+    color: #854DFF;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.Display {
+    font-size: 104px;
+    font-style: italic;
+    font-weight: 800;
+    margin: 0;
+    line-height: 110px;
+}
+
+#DayError, #MonthError, #YearError {
+    color: red;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0px;
+    margin-top: 0;
+}
